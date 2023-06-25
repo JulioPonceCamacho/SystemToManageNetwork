@@ -1,0 +1,15 @@
+#####################################
+######Dependencias requeridas########
+#####################################
+
+pip install PySide6 PyQt6 pyshark scapy psutil netifaces speedtest-cli
+
+
+#####################################
+######   Compilar Interfaz   ########
+#####################################
+--- Interfaz
+pyside6-uic Interfaz.ui -o UI_Interfaz.py
+--- Compilar recursos
+pyside6-rcc Recursos.qrc -o Recursos_rc.py
+
